@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de pokemons</title>
+</head>
+<body>
+	 <header>
+        <h1>Cadastro de Pokemons</h1>
+    </header>
+    <fieldset>
+<section id="campo-numerico">
+            <header>
+                <h2>Informações do Pokemon</h2>
+            </header>
+             <label for="nome">ID pokemon</label>
+            <input type="number" name="idade" id="campo-idade" step="1" min="1" max="999">
+            
+
+        </section>
+<br>
+            <label for="nome">Nome</label>
+            <input id="campo-nome" type="text" name="nome" value="">
+
+
+                     <br>   </select>
+<br>
+            
+
+             <label for="nome">Tipo 1</label>
+            <select name="tipo-pokemons" id="tipo-pokemons">
+           
+                    <option value="">Aço</option>
+                    <option value="">Água</option>
+                    <option value="">Dragão</option>
+                    <option value="">Elétrico</option>
+                    <option value="">Fada</option>
+                    <option value="">Fantasma</option>
+                    <option value="">Fogo</option>
+                    <option value="">Gelo</option>
+                    <option value="">Inseto</option>
+                    <option value="">Lutador</option>
+                    <option value="">Normal</option>
+                    <option value="">Pedra</option>
+                    <option value="">Planta</option>
+                    <option value="">Psíquico</option>
+                    <option value="">Sombrio</option>
+                    <option value="">Terra</option>
+                    <option value="">Venenoso</option>
+                    <option value="">Voador</option>
+                
+            </select><br><br>
+                         <label for="nome">Tipo 2</label>
+            <select name="tipo-pokemons" id="tipo-pokemons">
+                    <option value="">Não possui</option>          
+                    <option value="">Aço</option>
+                    <option value="">Água</option>
+                    <option value="">Dragão</option>
+                    <option value="">Elétrico</option>
+                    <option value="">Fada</option>
+                    <option value="">Fantasma</option>
+                    <option value="">Fogo</option>
+                    <option value="">Gelo</option>
+                    <option value="">Inseto</option>
+                    <option value="">Lutador</option>
+                    <option value="">Normal</option>
+                    <option value="">Pedra</option>
+                    <option value="">Planta</option>
+                    <option value="">Psíquico</option>
+                    <option value="">Sombrio</option>
+                    <option value="">Terra</option>
+                    <option value="">Venenoso</option>
+                    <option value="">Voador</option>
+                <br>
+                <br>
+            </select><br><br>
+                        <label for="nome">Geração:</label>
+            <input type="number" name="hp" id="campo-hp" step="1" min="1" max="7"><br><br>
+<label for="nome">Lendário:</label>
+                        <input type="checkbox" name="html" id="html" value="html" checked>
+                        <label for="html"></label>
+                        <br><br>
+
+<label for="nome">Cor</label>
+  <select name="tipo-pokemons" id="tipo-pokemons">
+     <option value="">Amarelo</option>
+     <option value="">Azul</option>
+     <option value="">Branco</option>
+     <option value="">Cinza</option>
+     <option value="">Marrom</option>
+     <option value="">Preto</option>
+     <option value="">Rosa</option>
+     <option value="">Roxo</option>
+     <option value="">Verde</option>
+     <option value="">Vermelho9l</option>       
+                <br>
+                <br>
+            </select><br><br>
+            <label for="nome">Altura (metros):</label>
+            <input type="float" name="hp" id="campo-hp" ><br><br>
+            <label for="nome">Peso (Kg):</label>
+            <input type="float" name="hp" id="campo-hp" ><br><br>
+            <label for="nome">Taxa de Captura:</label>
+            <input type="number" name="hp" id="campo-hp" step="1" min="0" max="255"><br><br>
+
+<br><br>
+
+<h2>Estatísticas do Pokemon</h2>
+        <script> 
+function soma() 
+{
+form.campo7.value = (form.hp.value*1) + (form.campo2.value*1) + (form.campo3.value*1) + (form.campo4.value*1) + (form.campo5.value*1) + (form.campo6.value*1)
+}
+</script>
+<form name="form">
+	<label for="nome">Pontos de Vida:</label>
+<input type="number" name="hp" id="campo-hp" step="1" min="1" max="255"><br><br>
+<label for="nome">Ataque:</label>
+<input name="campo2"><br><br>
+<label for="nome">Defesa:</label>
+<input name="campo3"><br><br>
+<label for="nome">Ataque Especial:</label>
+<input name="campo4"><br><br>
+<label for="nome">Defesa Especial:</label>
+<input name="campo5"><br><br>
+<label for="nome">Velocidade:</label>
+<input name="campo6"><br><br>
+<label for="nome">Total:</label>
+<input name="campo7" readonly><br><br>
+<input type="button" onclick="soma()" value="Somar estatísticas">
+</form>
+</fieldset>
+            
+     
+        </section>
+
+</body>
